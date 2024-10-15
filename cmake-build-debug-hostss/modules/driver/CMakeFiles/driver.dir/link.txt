@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdriver.a  CMakeFiles/driver.dir/Sources/CRC16.cpp.o CMakeFiles/driver.dir/Sources/DaHengCamera.cpp.o
+/usr/bin/ranlib libdriver.a

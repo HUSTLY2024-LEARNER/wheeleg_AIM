@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsolver.a  CMakeFiles/solver.dir/Sources/AccuratePNPSolver.cpp.o CMakeFiles/solver.dir/Sources/NormalPNPSolver.cpp.o
+/usr/bin/ranlib libsolver.a

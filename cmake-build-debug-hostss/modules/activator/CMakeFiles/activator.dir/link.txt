@@ -1,0 +1,2 @@
+/usr/bin/ar qc libactivator.a  CMakeFiles/activator.dir/Sources/BuffAngleKalman.cpp.o CMakeFiles/activator.dir/Sources/BuffCurver.cpp.o CMakeFiles/activator.dir/Sources/BuffPredictor.cpp.o
+/usr/bin/ranlib libactivator.a

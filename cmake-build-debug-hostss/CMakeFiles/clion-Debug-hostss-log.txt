@@ -1,0 +1,61 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/hustlyrm/AIM24qmy -B /home/hustlyrm/AIM24qmy/cmake-build-debug-hostss
+-- The C compiler identification is GNU 10.5.0
+-- The CXX compiler identification is GNU 10.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python: /usr/bin/python3.8 (found suitable version "3.8.10", minimum required is "3.8") found components: Development Interpreter 
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- Found pybind11: /usr/local/include (found version "2.14.0dev1")
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found OpenCV: /usr/local (found suitable version "4.9.0", minimum required is "4") 
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/local/share/eigen3/cmake
+-- Found Ceres compiled with miniglog substitute for glog, beware this will likely cause problems if glog is later linked.
+-- Found Ceres version: 2.2.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SchurSpecializations]
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- AutoAim_HUST_2024> 娣诲姞瀛愭ā鍧楀垪琛�(simulatormonitordriverdetectorsolvertrackerpredictoractivator)
+-- AutoAim_HUST_2024> 姝ｅ湪娣诲姞妯″潡(simulator -> simulator)
+CMake Warning (dev) at cmake/Cango/Common/RequireLibrary.cmake:17 (set):
+  implicitly converting 'FORCE' to 'STRING' type.
+Call Stack (most recent call first):
+  cmake/Cango/Common/RequireLibrary.cmake:30 (RequireLibrary)
+  cmake/Cango/CXXProjectHelper/AddCXXModule.cmake:68 (RequireLibraries)
+  modules/simulator/CMakeLists.txt:5 (AddCXXModule)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- AutoAim_HUST_2024> 姝ｅ湪娣诲姞妯″潡(monitor -> monitor)
+-- AutoAim_HUST_2024> 姝ｅ湪娣诲姞妯″潡(driver -> driver)
+-- AutoAim_HUST_2024> 姝ｅ湪娣诲姞妯″潡(detector -> detector)
+-- AutoAim_HUST_2024> 姝ｅ湪娣诲姞妯″潡(solver -> solver)
+-- AutoAim_HUST_2024> 姝ｅ湪娣诲姞妯″潡(tracker -> tracker)
+-- AutoAim_HUST_2024> 姝ｅ湪娣诲姞妯″潡(predictor -> predictor)
+CMake Warning (dev) at cmake/Cango/Common/RequireLibrary.cmake:17 (set):
+  implicitly converting 'FORCE' to 'STRING' type.
+Call Stack (most recent call first):
+  cmake/Cango/Common/RequireLibrary.cmake:30 (RequireLibrary)
+  cmake/Cango/CXXProjectHelper/AddCXXModule.cmake:68 (RequireLibraries)
+  modules/predictor/CMakeLists.txt:3 (AddCXXModule)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- AutoAim_HUST_2024> 姝ｅ湪娣诲姞妯″潡(activator -> activator)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hustlyrm/AIM24qmy/cmake-build-debug-hostss

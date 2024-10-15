@@ -1,0 +1,28 @@
+{
+    "driver": {
+        "device_path": "/dev/ttyUSB0",
+        "baud_rate": 115200,
+        "camera_sn": "FDN23020229",
+        "exposure_time": 8000
+    },
+    "pose_solver": {
+        "fx": 1771,
+        "fy": 1766.4,
+        "u0": 727.7105,
+        "v0": 591.9111,
+        "k1": -0.2077,
+        "k2": 0.4214,
+        "p1": 0,
+        "p2": 0,
+        "k3": 0,
+        "cameraPitchAngle": -1.2, 
+        "cameraYawAngle": 1.0,
+        "camera_trans_x": 0,
+        "camera_trans_y": -0.08,
+        "camera_trans_v": 0.05
+    },
+    "detector": {
+        "armor_model_file": "../utils/models/armor_yolo_x.xml",
+        "buff_model_file": "../utils/models/buff_yolo.xml"
+    }
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpredictor.a  CMakeFiles/predictor.dir/Sources/AngleTimeSolver.cpp.o CMakeFiles/predictor.dir/Sources/CenterStateEstimator.cpp.o CMakeFiles/predictor.dir/Sources/LinearEstimator.cpp.o CMakeFiles/predictor.dir/Sources/NotPredictor.cpp.o CMakeFiles/predictor.dir/Sources/OutpostPredictor.cpp.o CMakeFiles/predictor.dir/Sources/RpmEstimator.cpp.o CMakeFiles/predictor.dir/Sources/VehiclePredictor.cpp.o
+/usr/bin/ranlib libpredictor.a

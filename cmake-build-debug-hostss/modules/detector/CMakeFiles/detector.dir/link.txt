@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdetector.a  CMakeFiles/detector.dir/Sources/ArmorOneStage.cpp.o CMakeFiles/detector.dir/Sources/ArmorTwoStage.cpp.o CMakeFiles/detector.dir/Sources/BuffBBox.cpp.o CMakeFiles/detector.dir/Sources/BuffFivePoints.cpp.o CMakeFiles/detector.dir/Sources/LightBarFinder.cpp.o CMakeFiles/detector.dir/Sources/NumberClassifier.cpp.o
+/usr/bin/ranlib libdetector.a

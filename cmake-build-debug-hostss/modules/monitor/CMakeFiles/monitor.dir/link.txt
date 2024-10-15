@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmonitor.a  CMakeFiles/monitor.dir/Sources/monitor.cpp.o
+/usr/bin/ranlib libmonitor.a

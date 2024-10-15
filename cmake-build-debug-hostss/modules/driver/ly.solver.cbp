@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ly.solver"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Cango\;CMake Files\cmake\Cango\Common\;CMake Files\cmake\Cango\Common\CangoArgs\;CMake Files\cmake\Cango\ControlPanel\;CMake Files\cmake\Cango\CXXProjectHelper\;CMake Files\cmake\Cango\ProjectHelper\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\cmake\;CMake Files\..\..\..\usr\local\share\cmake\pybind11\;CMake Files\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\usr\local\share\eigen3\cmake\;CMake Files\..\..\..\usr\local\share\sophus\;CMake Files\..\..\..\usr\local\share\sophus\cmake\;CMake Files\..\..\..\usr\local\lib\;CMake Files\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\usr\local\lib\cmake\fmt\;CMake Files\..\..\..\usr\local\lib\cmake\Ceres\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\usr\lib\cmake\openvino2024.2.0\;CMake Files\modules\;CMake Files\modules\simulator\;CMake Files\modules\monitor\;CMake Files\modules\driver\;CMake Files\modules\detector\;CMake Files\modules\solver\;CMake Files\modules\tracker\;CMake Files\modules\predictor\;CMake Files\modules\activator\;CMake Files\utils\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="driver">
+				<Option output="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/libdriver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=1"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/utils/include"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/manager/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/monitor/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/driver/../detector/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/driver/../../utils/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/driver/../driver/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/driver/../tracker/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/driver/Headers"/>
+					<Add directory="/usr/include/python3.8"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/Makefile&quot;  VERBOSE=1 driver"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="driver/fast">
+				<Option output="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/libdriver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=1"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/utils/include"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/manager/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/monitor/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/driver/../detector/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/driver/../../utils/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/driver/../driver/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/driver/../tracker/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/driver/Headers"/>
+					<Add directory="/usr/include/python3.8"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/Makefile&quot;  VERBOSE=1 driver/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/driver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="solver">
+				<Option output="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/solver/libsolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/solver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=1"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/utils/include"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/manager/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/monitor/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/solver/../detector/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/solver/../../utils/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/solver/../driver/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/solver/../tracker/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/solver/Headers"/>
+					<Add directory="/usr/include/python3.8"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/solver/Makefile&quot;  VERBOSE=1 solver"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/solver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/solver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/solver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="solver/fast">
+				<Option output="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/solver/libsolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/solver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=1"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/utils/include"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/manager/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/monitor/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/solver/../detector/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/solver/../../utils/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/solver/../driver/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/solver/../tracker/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/solver/Headers"/>
+					<Add directory="/usr/include/python3.8"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/solver/Makefile&quot;  VERBOSE=1 solver/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/solver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/solver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/solver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tracker">
+				<Option output="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/tracker/libtracker.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/tracker"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=1"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/utils/include"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/manager/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/monitor/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/tracker/../detector/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/tracker/../../utils/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/tracker/../driver/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/tracker/../tracker/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/tracker/Headers"/>
+					<Add directory="/usr/include/python3.8"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/tracker/Makefile&quot;  VERBOSE=1 tracker"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/tracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/tracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/tracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tracker/fast">
+				<Option output="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/tracker/libtracker.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/tracker"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=1"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/utils/include"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/manager/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/monitor/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/tracker/../detector/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/tracker/../../utils/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/tracker/../driver/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/tracker/../tracker/Headers"/>
+					<Add directory="/home/hustlyrm/AIM24qmy/modules/tracker/Headers"/>
+					<Add directory="/usr/include/python3.8"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/tracker/Makefile&quot;  VERBOSE=1 tracker/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/tracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/tracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hustlyrm/AIM24qmy/cmake-build-debug-hostss/modules/tracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/driver/Sources/CRC16.cpp">
+			<Option target="driver"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/driver/Sources/DaHengCamera.cpp">
+			<Option target="driver"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/solver/Sources/AccuratePNPSolver.cpp">
+			<Option target="solver"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/solver/Sources/NormalPNPSolver.cpp">
+			<Option target="solver"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/tracker/Sources/MethodComparator.cpp">
+			<Option target="tracker"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/tracker/Sources/TrackingGate2D.cpp">
+			<Option target="tracker"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/CXXProjectHelper.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/Common.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/ControlPanel.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/ProjectHelper.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/Common/CangoArgs.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\Common\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/Common/CangoLog.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\Common\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/Common/GuardVariable.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\Common\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/Common/RequireLibrary.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\Common\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/Common/CangoArgs/CangoArgsLists.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\Common\CangoArgs\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/Common/CangoArgs/CangoArgsOptions.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\Common\CangoArgs\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/Common/CangoArgs/CangoArgsValues.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\Common\CangoArgs\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/ControlPanel/Cango_Quiet.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\ControlPanel\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/CXXProjectHelper/AddCXXModule.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\CXXProjectHelper\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/CXXProjectHelper/DefineBuildSystemMacros.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\CXXProjectHelper\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/CXXProjectHelper/GuardGlobalBuildDirectory.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\CXXProjectHelper\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/CXXProjectHelper/OverrideGlobalCXXStandard.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\CXXProjectHelper\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/CXXProjectHelper/SuppressWindowsWarnings.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\CXXProjectHelper\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/cmake/Cango/ProjectHelper/AddModulesInDirectory.cmake">
+			<Option virtualFolder="CMake Files\cmake\Cango\ProjectHelper\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/share/cmake/pybind11/pybind11Common.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\cmake\pybind11\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/share/cmake/pybind11/pybind11Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\cmake\pybind11\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/share/cmake/pybind11/pybind11ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\cmake\pybind11\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/share/cmake/pybind11/pybind11NewTools.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\cmake\pybind11\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/share/cmake/pybind11/pybind11Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\cmake\pybind11\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/share/sophus/cmake/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/share/sophus/cmake/SophusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/share/sophus/cmake/SophusTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/lib/cmake/fmt/fmt-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/lib/cmake/fmt/fmt-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/lib/cmake/fmt/fmt-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/lib/cmake/fmt/fmt-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/lib/cmake/Ceres/CeresConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/lib/cmake/Ceres/CeresConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/lib/cmake/Ceres/CeresTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/local/lib/cmake/Ceres/CeresTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/lib/cmake/openvino2024.2.0/OpenVINOConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\cmake\openvino2024.2.0\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/lib/cmake/openvino2024.2.0/OpenVINOConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\cmake\openvino2024.2.0\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/lib/cmake/openvino2024.2.0/OpenVINOTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\cmake\openvino2024.2.0\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/../../../usr/lib/cmake/openvino2024.2.0/OpenVINOTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\cmake\openvino2024.2.0\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/simulator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\simulator\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/monitor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\monitor\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/driver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\driver\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/detector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\detector\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/solver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\solver\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/tracker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\tracker\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/predictor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\predictor\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/modules/activator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\activator\"/>
+		</Unit>
+		<Unit filename="/home/hustlyrm/AIM24qmy/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utils\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
