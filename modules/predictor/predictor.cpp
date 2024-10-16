@@ -41,6 +41,9 @@ namespace PREDICTOR
                 auto *this_frame_armor_size_map = armor_size_map.get();
                 auto *this_frame_imu_flag_data = imu_flag_data.get();
 
+                // 打印解算的yaw角
+                //COUT("YAW_WORLD "<<solution_pack.armor_poses.at(0).second.yaw_world,RED);
+
                 predictor_loss_count = 0;
                 // angle_time_solver->calculateAverageBulletSpeed(solution_pack.imu_flag.actual_bullet_speed);
 
@@ -76,6 +79,9 @@ namespace PREDICTOR
                     std::pair<YawAndPitchRegion,Distance> yaw_and_pitch_region_with_distance = angle_time_solver->getYawPitchRegion(after_bullet_fly_points, this_frame_armor_size_map->at(solution_pack.enemy_type), yaw_and_distance_bounds, follow_mode, spin_state);
 
                     YawAndPitch aim_yaw_pitch = fire_controller->getAimYawPitch(this_frame_imu_flag_data->yaw_now, this_frame_imu_flag_data->pitch_now, yaw_and_pitch_region_with_distance, yaw_and_distance_bounds);
+
+                    // 打印云台的yaw
+                    COUT("IMU_YAW "<<this_frame_imu_flag_data->yaw_now,RED);
 
                     uint8_t shoot_flag = fire_controller->getShootFlag(aim_yaw_pitch, std::make_pair((float)this_frame_imu_flag_data->yaw_now, (float)this_frame_imu_flag_data->pitch_now), follow_mode); 
 

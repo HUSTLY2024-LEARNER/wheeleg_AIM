@@ -61,8 +61,8 @@ namespace PREDICTOR
         }
         else
         {
-            yaw_diff = 1.0;
-            pitch_diff = 2.0;
+            yaw_diff = 3.0;
+            pitch_diff = 3.0;
         }
 
         y_p_set_point.first = (float)(y_p_set_point.first + std::round((y_p_now.first - y_p_set_point.first) / 360.0) * 360.0);
